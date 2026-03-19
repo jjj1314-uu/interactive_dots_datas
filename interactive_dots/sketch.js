@@ -30,7 +30,7 @@ const metricsWandle = [
 ];
 
 function setup() {
-    createCanvas(1120, 420);
+    let canvas = createCanvas(1120, 420);
     canvas.style('background', 'transparent'); // force transparent on canvas element
     clear();
     noStroke();
