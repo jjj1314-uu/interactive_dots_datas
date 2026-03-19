@@ -38,7 +38,7 @@ function setup() {
 }
 
 function draw() {
-    setGradient(0, 0, width, height, color('#96E3FC'), color('#0099FF'));
+    clear();
 
     let leftMargin = 140;
 
