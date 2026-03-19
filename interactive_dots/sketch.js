@@ -31,6 +31,8 @@ const metricsWandle = [
 
 function setup() {
     createCanvas(1120, 420);
+    canvas.style('background', 'transparent'); // force transparent on canvas element
+    clear();
     noStroke();
     textAlign(CENTER, CENTER);
     textSize(12);
